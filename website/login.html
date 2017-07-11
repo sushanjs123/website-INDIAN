@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<style>
+h1 {
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+}
+div.background {
+  background: url(india.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); 
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color:  #b30000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color:  #b30000;
+}
+
+div {
+    border-radius: 5px;
+    background-color:  #ff9999;
+    padding: 20px;
+}
+</style>
+<body>
+<div class="background">
+  <div class="transbox">
+  <h1>login</h1>
+  </div>
+</div>
+
+<ul>
+  <li><a href="web.html">Home</a></li>
+   <li><a href="login.html">login</a></li>
+   <li><a href="festival.html">Festivals</a></li>
+   <li><a href="piligrim.html">Piligrims</a></li>
+<li><a href="m&v.html">Mountains & valleys</a></li>
+<li><a href="ca.html">Costals areas</a></li>
+<li><a href="ex.html">Exclusive in India</a></li>
+
+<li><a href="food.html">food</a></li>
+
+
+<li><a href="img.html">image galary</a></li>
+  
+    
+<li><a href="trip.html">plan your trip</a></li>
+<li><a href="wl.html">wild life</a></li>
+<li><a href="contact.html">contact us</a></li>
+
+
+
+</ul>
+
+<div>
+  <form name="myForm" action="website.html" onsubmit="return validateForm()" >
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname">
+
+    <label for="country">gender</label>
+    <select id="country" name="country">
+      <option value="man">male</option>
+      <option value="women">female</option>
+      <option value="others">others</option>
+    </select>
+    <br>
+    phone number:<br>
+    <input type="text" id="fname" name="firstname">
+    
+    <br>
+   Password:<br>
+  <input type="password" name="password">
+    <input type="submit" value="Submit" formaction="web.html">
+
+  </form>
+</div>
+///form validation must be done
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["fname"].value;
+    if (x == "") {
+        alert("Name must be filled out");
+        return false;
+    }
+}
+</script>
+
+</body>
+</html>

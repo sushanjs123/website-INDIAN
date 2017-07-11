@@ -1,0 +1,231 @@
+<html>
+<head>
+<style>
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: 300px;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+h1 {
+    color: black;
+    font-family: verdana;
+    font-size: 300%;
+}
+div.background {
+  background: url(india.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+</head>
+<body>
+
+<div class="background">
+  <div class="transbox">
+  <h1>Image gallery</h1>
+  </div>
+</div>
+
+<ul>
+  <li><a href="web.html">Home</a></li>
+   <li><a href="login.html">login</a></li>
+   <li><a href="festival.html">Festivals</a></li>
+   <li><a href="piligrim.html">Piligrims</a></li>
+<li><a href="m&v.html">Mountains & valleys</a></li>
+<li><a href="ca.html">Costals areas</a></li>
+<li><a href="ex.html">Exclusive in India</a></li>
+
+<li><a href="food.html">food</a></li>
+
+
+<li><a href="img.html">image galary</a></li>
+  
+    
+<li><a href="trip.html">plan your trip</a></li>
+<li><a href="wl.html">wild life</a></li>
+<li><a href="contact.html">contact us</a></li>
+</ul>
+<h2> Image Gallery</h2>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_fjords.jpg">
+      <img src="i1.jpg" alt="Trolltunga Norway" width="300" height="200">
+    </a>
+    <div class="desc">a house boat in Kerala</div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_forest.jpg">
+      <img src="i2.jpg" alt="Forest" width="300" height="200">
+    </a>
+    <div class="desc">waterfalls in karnataka</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_lights.jpg">
+      <img src="i3.jpg" alt="Northern Lights" width="300" height="200">
+    </a>
+    <div class="desc">a temple in Andra pradesh</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="i4.jpg" alt="Mountains" width="300" height="200">
+    </a>
+    <div class="desc">A valley in ooty</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="i5.jpg" alt="Mountains" width="600" height="200">
+    </a>
+    <div class="desc">A temple in Tamilnadu</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="i6.jpg" alt="Mountains" width="300" height="200">
+    </a>
+    <div class="desc">A valley in moonar</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="i7.jpg" alt="Mountains" width="300" height="200">
+    </a>
+    <div class="desc">peacock</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="img_mountains.jpg">
+      <img src="i8.jpg" alt="Mountains" width="300" height="200">
+    </a>
+    <div class="desc">A palace in jaipur</div>
+  </div>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

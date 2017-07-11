@@ -1,0 +1,188 @@
+<html>
+<head>
+<style>
+h1 {
+    color: black;
+    font-family: verdana;
+    font-size:600%;
+}
+.zoomin img { height: 100px; width: 100px;
+ -webkit-transition: all 2s ease;
+ -moz-transition: all 2s ease; -ms-transition:
+ all 2s ease; transition: all 2s ease; }
+ .zoomin img:hover { width: 200px; height: 200px; }
+ 
+div.background {
+  background: url(india.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+  filter: alpha(opacity=60);
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+</style>
+</head>
+<body>
+<div class="background">
+  <div class="transbox">
+  <h1>Indian Tourism</h1>
+
+  </div>
+
+</div>
+<marquee><h3>welcome to god's own country</h3></marquee>
+<ul>
+  <li><a href="web.html">Home</a></li>
+   <li><a href="login.html">login</a></li>
+   <li><a href="festival.html">Festivals</a></li>
+   <li><a href="piligrim.html">Piligrims</a></li>
+<li><a href="m&v.html">Mountains & valleys</a></li>
+<li><a href="ca.html">Costals areas</a></li>
+<li><a href="ex.html">Exclusive in India</a></li>
+
+<li><a href="food.html">food</a></li>
+
+<li><a href="img.html">image galary</a></li>
+  
+    
+<li><a href="trip.html">plan your trip</a></li>
+<li><a href="wl.html">wild life</a></li>
+<li><a href="contact.html">contact us</a></li>
+
+
+
+
+</ul>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+
+<h2 class="w3-center">Glance of india</h2>
+<div style="background-color:black;color:white;padding:20px;">
+<div class="w3-content w3-section" style="max-width:1000px">
+  <img class="mySlides" src="ali1.jpg" style="width:85%">
+  <img class="mySlides" src="ali2.jpg" style="width:100%">
+  <img class="mySlides" src="ali3.jpg" style="width:80%">
+  <img class="mySlides" src="ali4.jpg" style="width:90%">
+  <img class="mySlides" src="ali5.jpg" style="width:85%">
+  <img class="mySlides" src="ali6.jpg" style="width:45%">
+  <img class="mySlides" src="ali7.jpg" style="width:100%">
+  <img class="mySlides" src="ali8.jpg" style="width:80%">
+  
+</div>
+</div>
+<h2>Contact us .We will love to hear.</h2>
+
+<div  class="zoomin" style="background-color:grey;color:white;padding:40px;">
+<a href="https://www.facebook.com"><img src="fb.jpg" alt="Smiley face" align="left" height="100" width="100"></a>
+<img src="in.jpg" alt="Smiley face" align="left" height="100" width="100">
+<img src="tw.jpg" alt="Smiley face" align="left" height="100" width="100">
+<img src="yt.jpg" alt="Smiley face" align="left" height="100" width="100">
+<img src="p.jpg" alt="Smiley face" align="left" height="100" width="100">
+<img src="y.jpg" alt="Smiley face" align="left" height="100" width="100">
+</div>
+<form method="get" action="list.html">
+    <button type="submit">click for list of experiments</button>
+</form>
+<script>
+
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+
+window.onclick = function(e) {
+  if (!e.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    for (var d = 0; d < dropdowns.length; d++) {
+      var openDropdown = dropdowns[d];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 3000);
+}
+</script>
+
+</body>
+</html>

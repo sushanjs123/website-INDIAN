@@ -1,0 +1,194 @@
+<html>
+<body background="listp.jpg">
+<table border="1" style=width:100%>
+<tr>
+<th>S.NO</th>
+<th>EXPERIMENTS</th>
+<th>CODE</th>
+<th>OUTPUT</th>
+</tr>
+
+<tr>
+<td>1</td>
+<td>The text  is displayed as a heading </td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>Write HTML code for using horizontal line and stating the difference between heading tag .</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>Demonstrate the usage of various output tags, font and formatting Tags.</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>Write HTML code to display followingLists –</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>Insert an image in an HTML file. When you click on that image, open the following website:</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>Create a document with two links to an external document.The first link should lead to the beginning of the external document. The second link should lead to a particular section in the external document</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>Create an image-map, with clickable regions. </td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>Write HTML code for the following table :</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>WAP to code the following form:</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>Write HTML code for the following frames:</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>Change the text color, background color and text size of paragraph and list using internal Style sheet.</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>To display a message after some delay specified by user using JavaScript.</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>Write a program to demonstrate the working of alert box</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>14</td>
+<td>Write a JavaScript program to change background color after 5 seconds of page load.</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>WAP to implement Java Script – event handling like onblur</td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>16</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>17</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>18</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>19</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>20</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>21</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+
+<tr>
+<td>22</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+
+<tr>
+<td>23</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>24</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+<tr>
+<td>25</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
+
+
+<tr>
+<td>26</td>
+<td></td>
+<td><a href="form.html"target="blank"><button class="button">CODE</button></a></td>
+<td><a href="form.html"target="blank"><button class="button">OUTPUT</button></a></td>
+</tr>
